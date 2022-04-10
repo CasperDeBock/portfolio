@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/logo.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Casper | HOME</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="leftnav">CDeBock</h1>
+        <div class="tussen">
+          <div class="active">< HOME /></div>
+          <a href="#time"> <div>MY TIMELINE</div></a>
+          <a href="#e&e"> <div>EXPERIENCE & EDUCATION</div></a>
+          <a href="#skills"> <div>SKILLS</div></a>
+          <a href="#work"> <div>WORK</div></a>
+        </div>
+        <div id="menu">
+          <div id="menu-bar" onclick="menuOnClick()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+          <nav class="nav" id="nav">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#time">TIMELINE</a></li>
+              <li><a href="#e&e">EXPERIENCE</a></li>
+              <li><a href="#skills">SKILLS</a></li>
+              <li><a href="#work">WORK</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="menu-bg" id="menu-bg"></div>
+        <div class="rechtsnav">
+          <div><span class="or">+</span>32 468 17 12 64</div>
+          <div class="backding"><img src="images/envelope.svg" alt="" /></div>
+        </div>
+      </nav>
+      <div class="rest">
+        <h1 class="name fade">
+          <span class="bol">Casper</span> <span class="backname">De Bock</span>
+        </h1>
+        <div class="terminal">
+          <div class="headterminal">
+            <div>cdebock@terminal</div>
+            <div class="dots">
+              <div class="green"></div>
+              <div class="yellow"></div>
+              <div class="red"></div>
+            </div>
+          </div>
+          <div class="mainterminal">
+            <div class="line">
+              <div>
+                <span class="orange">cdbock@terminal:~$</span>
+              </div>
+              <div class="ani">
+                <span>cat software developer</span>
+              </div>
+            </div>
+            <div class="line">
+              <div class="info" id="info">
+                <span>name: casper de bock</span>
+                <span>age: 18</span>
+                <span>country: belgium</span>
+                <span>e-mail: casper.debock@gmail.com</span>
+                <span>github: @casperdebock</span>
+                <span>instagram: @casperdebock</span>
+                <span>twitter: @bock_casper</span>
+                <span>discord: @casper#1908</span>
+                <span>hobbys: scouts, producing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bolleke"></div>
+      <div class="bolleke2"></div>
+      <img class="pf fade" src="images/casper.png" alt="" />
+    </header>
+    <main>
+      <div class="eerst" id="time">
+        <div class="tijdlijn">
+          <div class="linetime"></div>
+          <div class="dates" data-aos="fade-in">
+            <div id="actup" class="d pijl">&#10576;</div>
+            <div onclick="changedate('act1')" id="act1" class="d actived">
+              2015
+            </div>
+            <div onclick="changedate('act2')" id="act2" class="d">2019</div>
+            <div onclick="changedate('act3')" id="act3" class="d">2021</div>
+            <div onclick="changedate('act4')" id="act4" class="d">2022</div>
+            <div id="actdown" class="d pijl">&#10574;</div>
+          </div>
+          <div class="uitlegdates" id="mijntext">
+            <h3 class="dateuitleg" id="thedate">2015</h3>
+            <h1 class="titleuitleg" id="titleuitleg" data-aos="fade-in">
+              Start Highschool
+            </h1>
+            <div class="uitleg" data-aos="fade-in" id="uitleg">
+              In 2015 I started highschool at ST.Bernardus in Oudenaarde. I
+              studied modern in my first 2 years. In 2017 I tried to study
+              science for 2 years but I didn't like the education, so I switched
+              schools to Atheneum Oudenaarde where I started studing Informatics
+              in 2019.
+            </div>
+          </div>
+          <div class="imageke">
+            <img
+              class="imgvoordate"
+              id="imgdate"
+              src="images/2015.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+      <div class="tweed" id="e&e">
+        <div class="kol" data-aos="fade-in">
+          <div class="koltitle"><h2>< Education /></h2></div>
+          <div class="koluitleg">
+            In highschool I did study in 5th and 6th grade Informatics where we
+            learned about C#, HTML, PHP and JS. Now I am graduated and I am
+            currently studying Informatics in HOGENT where I learn about JAVA,
+            HTML and JS. Also we see a lot about networks and how opartion
+            systems are made togheter. This education will be around 3 years.
+            After that I want to go to the universety of Ghent
+          </div>
+          <div class="kolster">
+            <h3>* * * *</h3>
+          </div>
+        </div>
+        <div class="kol" data-aos="fade-in">
+          <div class="koltitle"><h2>< Experience /></h2></div>
+          <div class="koluitleg">
+            I don't have a lot of eperience with big project for companys but I
+            have experience with school projects. For end work in 6th grade
+            needed to make a PHP Webshop for AZ-Oudenaarde (a hospital in
+            belgium). I learned a lot about PHP when I made the project and it
+            had a well ending. Currently I am working on a project for my
+            collage called Zatre. It is a game coded in JAVA.
+          </div>
+          <div class="kolster"><h3>* *</h3></div>
+        </div>
+      </div>
+      <div class="threed" id="skills">
+        <div class="sk"><h2>< Skills /></h2></div>
+        <div class="all-lang">
+          <div
+            data-aos="fade-right"
+            style="background-color: #ff7f3f; width: 60%"
+            class="rijtje"
+          >
+            <h2>HTML - 90%</h2>
+          </div>
+
+          <div
+            data-aos="fade-right"
+            style="background-color: #ff7f3f; width: 55%"
+            class="rijtje"
+          >
+            <h2>CSS - 80%</h2>
+          </div>
+          <div
+            data-aos="fade-right"
+            style="background-color: #ff7f3f; width: 50%"
+            class="rijtje"
+          >
+            <h2>C# - 70%</h2>
+          </div>
+          <div
+            data-aos="fade-right"
+            style="background-color: #ff7f3f; width: 45%"
+            class="rijtje"
+          >
+            <h2>PHP - 60%</h2>
+          </div>
+          <div
+            data-aos="fade-right"
+            style="background-color: #ff7f3f; width: 40%"
+            class="rijtje"
+          >
+            <h2>JS - 50%</h2>
+          </div>
+          <div
+            data-aos="fade-right"
+            style="background-color: #ff7f3f; width: 35%"
+            class="rijtje"
+          >
+            <h2>JAVA - 40%</h2>
+          </div>
+        </div>
+      </div>
+      <div class="vier" id="work">
+        <div class="linksvier">
+          <div class="titlevier"><h2>< My Work /></h2></div>
+          <div class="arrow">
+            <h1 id="prev" onclick="verander('prev')">< prev</h1>
+            <h1>/</h1>
+            <h1 id="next" onclick="verander('next')">next ></h1>
+          </div>
+          <div><h3 id="page">1/3</h3></div>
+        </div>
+        <div class="rechtsvier">
+          <div class="werkstuk">
+            <img id="pic1" src="images/1.1.PNG" alt="" />
+            <div class="uitlegwerk">
+              <h2 id="uitlegtit1">Scouts Website</h2>
+              <p id="uitleg1">Portofolio website made for my scouts</p>
+            </div>
+          </div>
+          <div class="werkstuk">
+            <img id="pic2" src="images/1.2.PNG" alt="" />
+            <div class="uitlegwerk">
+              <h2 id="uitlegtit2">Convertor</h2>
+              <p id="uitleg2">Converting website BIN, HEX, DEC, OCT in JS</p>
+            </div>
+          </div>
+        </div>
+        <div class="custom-shape-divider-bottom-1648756536">
+          <svg
+            data-name="Layer 1"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1200 120"
+            preserveAspectRatio="none"
+          >
+            <path
+              d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z"
+              class="shape-fill"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
